@@ -1,0 +1,89 @@
+.adCompaign-card {
+  box-shadow: 0px 4px 6px -4px #0000001a, 0px 10px 15px -3px #0000001a;
+  background: #111111;
+  width: 45%;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+
+.adCompaign-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LeftCircleads {
+  width: 80%;
+  height: 100%;
+  display: block; 
+  top:0px;
+  left: 0px;
+}
+
+.AdsImgoneLeft {
+    width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  color: white;
+}
+
+.ad-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ad-description {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: Calibri;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ABABAB;
+}
+.Violationtext{
+    margin-bottom: 10px;
+}
+.ads-text-wrapper{
+    margin-left: 30px;
+}
+.ad-button {
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+.file-Violation{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.divider{
+    margin-top: 20px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #474747
+}

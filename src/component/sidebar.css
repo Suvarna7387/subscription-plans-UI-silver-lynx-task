@@ -1,0 +1,14 @@
+.sidebar {
+    width: 20%;
+    background: #000;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 0.3px solid #979292; 
+    color: #fff;
+  }
+  
+ .Sledgeimg{
+    margin-left: -20px;
+    margin-top: 0px;
+ }
+  

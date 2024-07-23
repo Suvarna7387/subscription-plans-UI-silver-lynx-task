@@ -1,0 +1,108 @@
+.plans-container {
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px; 
+    margin-left: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    min-width: 250px; 
+    max-width: 300px; 
+    padding: 20px;
+    border-radius: 24px;
+    border: 1px solid #474747;
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0; /
+  }
+  .card3{
+    background-color: #01e5d4;
+  }
+  .card3-ForEveryoneText{
+        font-family: Calibri;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    color: #fff;
+  }
+  .get-button{
+        background: #fff;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #0000FF;
+        border: none;
+        cursor: pointer;
+        width: fit-content;
+      }
+  
+  .card-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-head-img {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px; 
+  }
+  
+  .card-feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between features */
+  }
+  
+  .check-circle-icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  
+  .ad-button {
+    background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; /* Space between button and the last feature */
+  }
+  .card-heading-wrapper{
+    text-align: left;
+  }
+  .eighteenpx{
+    font-family: Calibri;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+  }
+  .ForEveryoneText{
+    font-family: Calibri;
+font-size: 28px;
+font-weight: 700;
+line-height: 35px;
+text-align: left;
+color: #137AEA;
+  }
+  .minus-icon{
+    padding-left: 30px !important;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%; /* Make each card take full width on smaller screens */
+    }
+  }
+  

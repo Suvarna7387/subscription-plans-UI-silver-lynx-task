@@ -1,0 +1,103 @@
+.main-content {
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #000;
+  color: white;
+  display: flex;
+  height: fit-content;
+}
+
+.main-content-inner {
+  background-color: #1b1b1b;
+  margin: 20px;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: fit-content;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links span {
+  margin-right: 20px;
+  font-family: Calibri;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+}
+
+.raise-ticket-btn {
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.buttons-main {
+  background-color: #1b1b1b;
+  color: white;
+  /* gap: 46px; */
+  border-radius: 12px 12px 12px 12px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 2px 4px -2px #ffffff1a;
+  border: 2px solid;
+  cursor: pointer;
+  display: flex;
+  width: 200px;
+}
+.buttons-main-active {
+    background: 
+      linear-gradient(180deg, #01e5d4 0%, #137aea 83%),
+      linear-gradient(120deg, rgba(255, 255, 255, 0.4) 0%, rgba(238, 237, 237, 0.2) 96.79%),
+      linear-gradient(169.15deg, rgba(255, 255, 255, 0.4) 0%, rgba(238, 237, 237, 0.2) 96.79%);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px -2px #ffffff1a;
+    cursor: pointer;
+    display: flex;
+    width: 200px;
+    border: 2px solid;
+    border-image-source: linear-gradient(
+      169.15deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(238, 237, 237, 0.2) 96.79%
+    );
+  }
+  
+.buttons-main span {
+  margin-top: 17px;
+  margin-left: 15px;
+}
+.buttons-main-active span {
+  margin-top: 17px;
+  margin-left: 15px;
+}
+.Btn-img {
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+}
