@@ -17,7 +17,7 @@
     padding: 20px;
     border-radius: 24px;
     border: 1px solid #474747;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px 0; /
   }
@@ -57,7 +57,7 @@
   .card-feature {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Space between features */
+    margin-bottom: 10px;
   }
   
   .check-circle-icon {
@@ -75,7 +75,7 @@
     cursor: pointer;
     width: 100%;
     text-align: center;
-    margin-top: 20px; /* Space between button and the last feature */
+    margin-top: 20px; 
   }
   .card-heading-wrapper{
     text-align: left;
@@ -102,7 +102,7 @@ color: #137AEA;
   
   @media (max-width: 768px) {
     .card {
-      flex: 1 1 100%; /* Make each card take full width on smaller screens */
+      flex: 1 1 100%; 
     }
   }
   
